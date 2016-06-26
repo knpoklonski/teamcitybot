@@ -4,8 +4,9 @@ using TeamCityApi;
 namespace TeamCityBot.Tests
 {
     [TestClass]
-    public class UnitTest1
+    public class TemCityListenerTests
     {
+        [Ignore]
         [TestMethod]
         public void GetAlphaState()
         {
